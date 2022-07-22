@@ -47,6 +47,9 @@ def calculate_mandates(overall_votes_dict, census_dict, mandate_dict, number_of_
 	return mandate_dict, census_dict
 
 
+"""
+For testing purposes
+"""
 if __name__ == "__main__":
 	overall_votes_dict_1 = {0:2950, 1:480, 2:1100, 3:1900}
 	overall_votes_dict_2 = {0:2900, 1:400, 2:1000, 3:2000}
